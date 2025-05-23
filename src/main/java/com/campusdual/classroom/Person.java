@@ -8,4 +8,8 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 	}
+
+	public void getDetails(){
+		System.out.println("La persona cuyo nombre es: " + this.name + " de apellido " + this.surname);
+	}
 }
